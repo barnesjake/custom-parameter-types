@@ -7,7 +7,6 @@ scalaVersion := "2.11.11"
 scalacOptions ++= Seq("-unchecked", "-deprecation", "-feature")
 
 libraryDependencies ++= Seq(
-  "uk.gov.hmrc" %% "webdriver-factory" % "0.6.0" % "test",
   "org.scalatest" %% "scalatest" % "3.0.7" % "test",
   "info.cukes" %% "cucumber-scala" % "1.2.5" % "test",
   "info.cukes" % "cucumber-junit" % "1.2.5" % "test",
